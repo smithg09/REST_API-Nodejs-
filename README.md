@@ -1,6 +1,6 @@
 # REST_API-Nodejs-
 
-This project is REST API built using Nodejs and express , Mongodb Is used for database activity 
+This project is REST API built using Nodejs and express , Mongodb Is used for database activity and JWT token for user management.  
 
 Run the Project Locally :
  - Clone the repository

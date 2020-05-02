@@ -19,7 +19,9 @@ app.all('*', (req, res, next) => {
 
 // Database Connection
 const mongo = require('mongoose');
-mongo.connect(process.env.DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true })
+// mongo.connect(process.env.DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true })
+
+mongo.connect("mongodb+srv://test09:Obpgb7wqgDTfGHNd@cluster0-p0icc.mongodb.net/test?retryWrites=true&w=majority",{ useNewUrlParser: true, useUnifiedTopology: true })
 const db = mongo.connection
 
 db.on('error', error => console.error(error))

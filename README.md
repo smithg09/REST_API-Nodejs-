@@ -5,4 +5,5 @@ This project is REST API built using Nodejs and express , Mongodb Is used for da
 Run the Project Locally :
  - Clone the repository
  - execute npm install into project direct folder
+ - Download mongodb compass && mongodb driver. 
  - then run the project using npm run devStart command

@@ -11,9 +11,9 @@ const users = new mongoose.Schema({
     }
 })
 
-// users.pre('find', (next) => {
-//     console.log("In users Model");
-//     next()
-// })
+users.pre('find', (next) => {
+    console.log("In users Model");
+    next()
+})
 
 module.exports = mongoose.model('users', users)

@@ -1,1 +1,2 @@
 Hrithik Malvani
+Sonia Thakur

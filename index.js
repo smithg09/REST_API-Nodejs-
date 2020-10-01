@@ -12,6 +12,8 @@ app.use(bodyParser.json());
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }))
 
+// Catch All routes
+
 app.all('*', (req, res, next) => {
     console.log("A new request received at " + Date.now() + " || For : " + req.url + " | Method : " + req.method);
     next();

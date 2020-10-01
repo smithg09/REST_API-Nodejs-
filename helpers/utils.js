@@ -6,4 +6,6 @@ go = (status, message, body) => {
 	});
 }
 
+// Map outgoing response
+
 module.exports = { go };

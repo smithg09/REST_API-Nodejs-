@@ -103,7 +103,7 @@ async function verifyauth(req, res, next) {
         var verifybb = await checkIfTokenValid(token)
         console.log("Checking if token blacklisted=> ", verifybb)
         if (!verifybb) {
-            const verified = await jwt.verify(token, '5mnfvco4@9090')
+            const verified = await jwt.verify(token, 'asfagsagsf')
             req.user = verified
             next()
         }

@@ -10,7 +10,7 @@ router.post('/', async (req, res) => {
 
         if (req.body.password === userexist.password) {
             
-            const token = jwt.sign({ _id: userexist._id }, '5mnfvco4@9090')
+            const token = jwt.sign({ _id: userexist._id }, 'asfagsagsf')
             res.header('auth-token', token).send(go(true, "Logged In", {
                 "Token" : token
             }))
